@@ -1,0 +1,91 @@
+/* todo: styled links and add comments */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+a {
+  /* the links don't have underlines */
+  text-decoration: none;
+}
+
+article {
+  margin: auto;
+  width: 500px;
+  padding: 16px;
+}
+
+/* the image is centered */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  height: 38px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  color: #F5FFFA
+}
+
+h1 {
+  margin: 0px;
+}
+
+h1, h3 {
+  color: #F5FFFA;
+  font-family: georgia;
+}
+
+h2 {
+  color: #006400;
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+header, footer {
+  background: #006400;
+  margin: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  background: #F5FFFA;
+  margin: 0px;
+  padding-bottom: 38px;
+}
+
+li, p {
+  font-family: verdanda, sans-serif;
+}
+
+/* Used to keep the footer at the bottom of the page */
+#page-container {
+  background: #F5FFFA;
+  position: relative;
+  min-height: 100vh;
+}
+
+section {
+  /* padding-top of 0 compensates for the margin of h2 elements */
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+/* Styling the links based on state */
+a:link { color: #006400; }
+a:visited { color: #483D8B; }
+a:hover { color: #6A5ACD; }
+a:active { color: #00FF7F; }
