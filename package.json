@@ -1,0 +1,20 @@
+{
+  "name": "portfoliowebpage",
+  "version": "1.0.0",
+  "description": "A Portfolio Page about Dexter Berend",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berend27/PortfolioWebPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berend27/PortfolioWebPage/issues"
+  },
+  "homepage": "https://github.com/Berend27/PortfolioWebPage#readme"
+}
